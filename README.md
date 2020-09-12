@@ -25,7 +25,7 @@ Check the following [Setup](#Setup) section for details.
 - Follow the instructions to install [msys2](https://openframeworks.cc/setup/msys2/) and Qt [Creator](https://openframeworks.cc/setup/qtcreator/).
 - Use [Uncrustify](https://sourceforge.net/projects/uncrustify/) to beautify the source codes. Download the latest release and place the executable in the **PATH**. Then follow instructions to [configure Qt Creator](https://doc.qt.io/qtcreator/creator-beautifier.html#:~:text=Select%20Restart%20Now%20to%20restart,select%20in%20the%20Tool%20field.).
 
-- Setup a new kit for msys2. Remember to configure `MINGW_PREFIX` and `MSYSTEM`. (I place msys2 in my _user_ PATH instead of _system_ PATH. Hence, I need to configure the **PATH** again.) See screenshot below.
+- Setup a new kit for msys2. According to this [post](https://forum.openframeworks.cc/t/problem-building-with-qt-creator-msys-64bit-on-windows/34699/4), remember to configure `MINGW_PREFIX` and `MSYSTEM`. (I place msys2 in my _user_ PATH instead of _system_ PATH. Hence, I need to configure the **PATH** again.) See screenshot below.
 
   ![](screenshots/kits.png)
 
