@@ -37,6 +37,8 @@ Check the following [Setup](#Setup) section for details.
 
   ![](screenshots/project-kit.png)
 
+- If addons are selected in the project creation wizard, remember to create a `addons.make` file and list the chosen addons inside.
+
 ## 2D-RGG
 
 ![](screenshots/2d-rgg.gif)
