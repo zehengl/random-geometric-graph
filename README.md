@@ -45,4 +45,4 @@ Check the following [Setup](#Setup) section for details.
 
 ## 3D-RGG
 
-TBD
+![](screenshots/3d-rgg.gif)
