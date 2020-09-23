@@ -20,6 +20,33 @@ See [Compilation failing due to confliting definition in openal](https://forum.o
 I ended up with a nightly build that comes with a fix.
 Check the following [Setup](#Setup) section for details.
 
+## Demo
+
+### 2D-RGG
+
+![](screenshots/2d-rgg.gif)
+
+Features:
+
+- change neighbor radius (`r`) dynamically
+- change number of random nodes (`n`) dynamically
+- display edges between neighbors
+- display nodes with max/min neighbors
+
+### 3D-RGG
+
+![](screenshots/3d-rgg.gif)
+
+Features:
+
+- change neighbor radius (`r`) dynamically
+- change number of random nodes (`n`) dynamically
+- display edges between neighbors
+- display nodes with max/min neighbors
+- display sphere's 3d layout
+- drag and change the orientation of nodes
+- auto rotate with different speeds
+
 ## Setup
 
 - Follow the instructions to install [msys2](https://openframeworks.cc/setup/msys2/) and Qt [Creator](https://openframeworks.cc/setup/qtcreator/).
@@ -38,11 +65,3 @@ Check the following [Setup](#Setup) section for details.
   ![](screenshots/project-kit.png)
 
 - If addons are selected in the project creation wizard, remember to create a `addons.make` file and list the chosen addons inside.
-
-## 2D-RGG
-
-![](screenshots/2d-rgg.gif)
-
-## 3D-RGG
-
-![](screenshots/3d-rgg.gif)
