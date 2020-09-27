@@ -1,5 +1,7 @@
 # random-geometric-graph
 
+A demo of random geometric graphs
+
 ## Introduction
 
 > In graph theory, a random geometric graph (RGG) is the mathematically simplest spatial network, namely an undirected graph constructed by randomly placing N nodes in some metric space (according to a specified probability distribution) and connecting two nodes by a link if and only if their distance is in a given range, e.g. smaller than a certain neighborhood radius, r.
@@ -22,7 +24,7 @@ Check the following [Setup](#Setup) section for details.
 
 ## Demo
 
-### 2D-RGG
+### 2D-RGG on a square
 
 ![](screenshots/2d-rgg.gif)
 
@@ -33,7 +35,7 @@ Features:
 - display edges between neighbors
 - display nodes with max/min neighbors
 
-### 3D-RGG
+### 3D-RGG on a sphere
 
 ![](screenshots/3d-rgg.gif)
 
